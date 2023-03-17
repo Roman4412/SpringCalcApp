@@ -3,11 +3,11 @@ package com.calcappspring.CalcInterface;
 public interface CalcInterface {
     String toGreet();
 
-    String plus(Integer num1, Integer num2);
+    int plus(int num1, int num2);
 
-    String minus(Integer num1, Integer num2);
+    int minus(int num1, int num2);
 
-    String multiply(Integer num1, Integer num2);
+    int multiply(int num1, int num2);
 
-    String divide(Integer num1, Integer num2);
+    int divide(int num1, int num2);
 }
